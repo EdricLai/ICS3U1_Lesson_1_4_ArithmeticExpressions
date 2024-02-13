@@ -1,27 +1,31 @@
 class ArithmeticExpressions1 extends ConsoleProgram {
-
   /**
   * Day Age Calculator
   */
-  public void run() {
+  public void run() {    
     
-    int intAge;
-    int intDays;
+    // declare variables
+    int intMyInt;
+    double dblMyDbl;
 
-    intAge = readInt("How old are you? ");
-    intDays = intAge * 365;
-
-    //System.out.print("You have been alive for this many days: ");
-    System.out.println("You have been alive for this many days: " + intDays);
-    //System.out.println(intDays);
-
+    // initialize variables
+    intMyInt = 5;
+    dblMyDbl = 4.0;
 
     // divide an int by an int will always be an int
-
+    System.out.println(intMyInt/2);
     // divide an int by a double will always be a double
+    System.out.print(intMyInt/dblMyDbl);
 
-    // divide an int by a double will always be a double
+    /*
+    int intUserAge;
+    int intUserDays;
+
+    intUserAge = readInt("How old are you? ");
+    intUserDays = intUserAge * 365;
+
+    System.out.println("You are " + intDays + " days old!");
+    */
     
-
   }
 }
